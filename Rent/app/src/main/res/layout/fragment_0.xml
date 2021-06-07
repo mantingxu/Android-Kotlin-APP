@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/frameLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:drawable/gallery_thumb">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="610dp"
+            android:layout_height="128dp"
+            android:layout_marginTop="70dp"
+            android:gravity="center"
+            android:text="@string/title"
+            android:textAlignment="center"
+            android:textColor="@color/purple_700"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="400dp"
+            android:layout_height="222dp"
+            android:layout_marginBottom="20dp"
+            android:src="@mipmap/house_foreground"
+            app:layout_constraintBottom_toTopOf="@+id/enviroment"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/enviroment"
+            android:layout_width="240dp"
+            android:layout_height="58dp"
+            android:baselineAligned="false"
+            android:text="@string/enviroment"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/money"
+            app:layout_constraintEnd_toEndOf="@+id/money"
+            app:layout_constraintStart_toStartOf="@+id/money"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <Button
+            android:id="@+id/money"
+            android:layout_width="236dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="139dp"
+            android:text="@string/money"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/enviroment" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

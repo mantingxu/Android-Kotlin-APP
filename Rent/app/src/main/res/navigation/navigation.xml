@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/fragment0">
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="com.example.rent.Fragment1"
+        android:label="Fragment1"
+        tools:layout="@layout/fragment_1"/>
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.example.rent.Fragment2"
+        android:label="fragment_2"
+        tools:layout="@layout/fragment_2" >
+        <action
+            android:id="@+id/action_fragment2_to_myMap"
+            app:destination="@id/myMap" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="com.example.rent.Fragment3"
+        android:label="fragment_3"
+        tools:layout="@layout/fragment_3" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.rent.Fragment4"
+        android:label="fragment_4"
+        tools:layout="@layout/fragment_4" />
+    <fragment
+        android:id="@+id/appFragment"
+        android:name="com.example.rent.Fragment5"
+        android:label="fragment_5"
+        tools:layout="@layout/fragment_5" />
+    <fragment
+        android:id="@+id/fragment0"
+        android:name="com.example.rent.Fragment0"
+        android:label="東華租屋APP"
+        tools:layout="@layout/fragment_0"/>
+    <fragment
+        android:id="@+id/myMap"
+        android:name="com.example.rent.MyMap"
+        android:label="fragment_my_map"
+        tools:layout="@layout/fragment_my_map" >
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="longtitude"
+            app:argType="float" />
+        <argument
+            android:name="latitude"
+            app:argType="float" />
+    </fragment>
+    <activity
+        android:id="@+id/googleActivity"
+        android:name="com.example.rent.GoogleActivity"
+        android:label="登入"
+        tools:layout="@layout/activity_google" />
+    <activity
+        android:id="@+id/imageActivity"
+        android:name="com.example.rent.imageActivity"
+        android:label="詳細資訊"
+        tools:layout="@layout/activity_image" />
+    <activity
+        android:id="@+id/houseActivity"
+        android:name="com.example.rent.houseActivity"
+        android:label="租屋一覽"
+        tools:layout="@layout/activity_house" />
+    <activity
+        android:id="@+id/uploadActivity"
+        android:name="com.example.rent.uploadActivity"
+        android:label="新增租屋資訊（房東）"
+        tools:layout="@layout/activity_upload" />
+    <activity
+        android:id="@+id/profileActivity"
+        android:name="com.example.rent.ProfileActivity"
+        android:label="房東介面"
+        tools:layout="@layout/activity_profile" />
+    <activity
+        android:id="@+id/editActivity"
+        android:name="com.example.rent.EditActivity"
+        android:label="activity_edit"
+        tools:layout="@layout/activity_edit" />
+</navigation>

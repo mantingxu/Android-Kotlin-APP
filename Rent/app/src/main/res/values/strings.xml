@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">東華租屋</string>
+    <string name="title">東 華 租 屋  APP</string>
+    <string name="front">前門租屋</string>
+    <string name="back_right">後門右轉</string>
+    <string name="back_left">後門左轉</string>
+    <string name="free">大四專區</string>
+    <string name="enviroment">我是租客</string>
+    <string name="money">我是房東</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Welcome to Google SignIn</string>
+    <string name="title_activity_my_map">Map</string>
+
+
+    <string name="get_local_img">取得照片</string>
+    <string name="do_nothing">無權限無法做事!</string>
+    <string name="download_file">下載照片</string>
+    <string name="upload_file">上傳照片</string>
+    <string name="load_img_fail">讀取圖片失敗</string>
+    <string name="plz_pick_img">請選取照片</string>
+    <string name="upload_success">上傳成功</string>
+    <string name="download_success">下載成功</string>
+    <string name="download_fail">下載失敗</string>
+    <string name="delete_success">刪除成功</string>
+    <string name="plz_upload_img">請先上傳照片</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="about">
+        <br>   我是資工四的徐嫚庭  </br>
+        <br> 學號是410621212 </br>
+    </string>
+    <string name="about1">
+        <br> 上面的照片是我最喜歡的NBA球星 Luka Doncic </br>
+        <br> 他目前22歲 已經是NBA的頂尖球星</br>
+    </string>
+
+
+    <string name="aboutapp">
+        <br>  關於這個 APP </br>
+        <br> 開發宗旨為給予東華的同學和花蓮的房東一個交流換訊息的平台</br>
+         <br> 希望大家能妥善運用這個 APP </br>
+        <br> 減少資訊不對等的誤會 </br>
+    </string>
+
+
+</resources>

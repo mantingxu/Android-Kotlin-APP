@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context=".login">
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="45dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="帳號："
+            android:maxLength="11"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="密碼："
+            android:maxLength="11"
+            android:password="true"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="409dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:background="@android:drawable/button_onoff_indicator_off"
+        android:text="登入"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        app:backgroundTint="@color/teal_200" />
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/remeber_pass"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:text="記住密碼"
+            android:textColor="#666666"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/signup"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:gravity="center|right"
+            android:text="註冊帳號"
+            android:textColor="#1783e3"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>

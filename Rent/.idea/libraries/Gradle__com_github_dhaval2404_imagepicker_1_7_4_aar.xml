@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.dhaval2404:imagepicker:1.7.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5e2c56c930676d789481efa452d831ec/jetified-imagepicker-1.7.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5e2c56c930676d789481efa452d831ec/jetified-imagepicker-1.7.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5e2c56c930676d789481efa452d831ec/jetified-imagepicker-1.7.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.dhaval2404/imagepicker/1.7.4/9c3c870fdbc6c1d8bdbd9108ee6136af1ca51714/imagepicker-1.7.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.dhaval2404/imagepicker/1.7.4/7f81c2e972aadd3f4ac1ad4b5cd02619c9de860c/imagepicker-1.7.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
